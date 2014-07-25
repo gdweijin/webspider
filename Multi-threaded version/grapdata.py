@@ -199,7 +199,7 @@ while 1:
 
     if time.localtime().tm_min==59:
         time.sleep(60-time.localtime().tm_sec)
-        main()
+        # main()
     else:
         time.sleep(60)
 
